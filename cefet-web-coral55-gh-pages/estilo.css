@@ -1,0 +1,119 @@
+/* Importa o arquivo CSS que importa a fonte Ravie */
+@import "fonts/ravie.css";
+/*errado*/
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.h1{
+  color: #e90c0c;
+  font-family: 'ravie';
+  font-size: 36px;
+}
+
+header.h2{
+  font-family: 'Trebuchet MS';
+  font-size: 24px;
+  color: #333;
+}
+
+
+#visaMaster{
+  margin-bottom: 25px;
+  margin-top: 46px;
+
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+footer{
+
+}
+
+.preços{
+  padding-right: 0;
+}
+
+/*nao ta no ficando no lugar certo*/
+#ticket{
+  margin-left: 0;
+  margin-top: 295px;
+  width: 89px;
+}
+
+
+
+h3{
+  font-size: 18px;
+  font-family: 'Verdana';
+  color: #333;
+  font-weight: bold;
+}
+
+p{
+  font-size: 14px;
+  font-family: 'Verdana';
+  color: #333;
+  line-height: 2em;
+}
+
+
+#açai{
+  color: #d027aa;
+}
+
+
+#recipiente{
+  background-image: linear-gradient(#f6f1b1, #4599b2);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d3d3d3;
+  max-width: 700px;
+  margin: auto;
+}
+
+#lateral{
+  width: 154px;
+}
+
+#cardapio{
+  background-image: linear-gradient(#f6f1b1, #4599b2);
+  width: 646px;
+  margin-left: auto;
+  margin-right: 0;
+  border-style: solid;
+  border-color: #aac0ae;
+  border-width: 1px;
+  color: #fff;
+  filter: alpha(opacity=20);
+}
+
+#peixe{
+  margin-bottom: 0;
+}
+
+#bolhas{
+  margin-right: 20px;
+  margin-bottom: 14px;
+}
+
+#caranguejo{
+  margin-top: 7px;
+
+}
+
+#rodar {
+  transform: rotate(-90deg); /* dado em graus, sentido horário */
+  font-family: 'Verdana';
+  font-size: 48px;
+  color: #333 ;
+  left: -100px;
+  transition: left 100ms ease-out; /* propriedade, duração, interpolação */
+  width: 154px;
+}
+
+#rodar:hover {
+  left: 0;
+}
